@@ -13115,65 +13115,306 @@ div#notebook {
 
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[31]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="ch">#!npm init --yes</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>npm init --yes
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Wrote to /home/jovyan/work/CandlestickPlotterTest/package.json:
+
+{
+  &#34;name&#34;: &#34;CandlestickPlotterTest&#34;,
+  &#34;version&#34;: &#34;1.0.0&#34;,
+  &#34;description&#34;: &#34;&#34;,
+  &#34;main&#34;: &#34;index.js&#34;,
+  &#34;scripts&#34;: {
+    &#34;test&#34;: &#34;echo \&#34;Error: no test specified\&#34; &amp;&amp; exit 1&#34;
+  },
+  &#34;keywords&#34;: [],
+  &#34;author&#34;: &#34;&#34;,
+  &#34;license&#34;: &#34;ISC&#34;
+}
+
+
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[34]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="ch">#!npm install -S git+https://git@github.com/aleksiromanov/candlestick-plotter.git</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>npm install -S git+https://git@github.com/aleksiromanov/candlestick-plotter.git
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre><span class="ansi-white-fg ansi-black-bg">npm</span> <span class="ansi-black-fg ansi-yellow-bg">WARN</span> CandlestickPlotterTest@1.0.0 No description-plotter@1.0.0~po
+<span class="ansi-white-fg ansi-black-bg">npm</span> <span class="ansi-black-fg ansi-yellow-bg">WARN</span> CandlestickPlotterTest@1.0.0 No repository field.
+<span class="ansi-white-fg ansi-black-bg">npm</span> <span class="ansi-black-fg ansi-yellow-bg">WARN</span> <span class="ansi-magenta-fg">optional</span> SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.7 (node_modules/fsevents):
+<span class="ansi-white-fg ansi-black-bg">npm</span> <span class="ansi-black-fg ansi-yellow-bg">WARN</span> <span class="ansi-magenta-fg">notsup</span> SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.7: wanted {&#34;os&#34;:&#34;darwin&#34;,&#34;arch&#34;:&#34;any&#34;} (current: {&#34;os&#34;:&#34;linux&#34;,&#34;arch&#34;:&#34;x64&#34;})
+
++ candlestick-plotter@1.0.0
+updated 1 package and audited 3239 packages in 10.74s
+found 1 <span class="ansi-bold">low</span> severity vulnerability
+  run `npm audit fix` to fix them, or `npm audit` for details
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[35]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="ch">#!npm install --save-dev babel-cli babel-preset-es2015</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>npm install --save-dev babel-cli babel-preset-es2015
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre><span class="ansi-white-fg ansi-black-bg">npm</span> <span class="ansi-black-fg ansi-yellow-bg">WARN</span> <span class="ansi-magenta-fg">deprecated</span> babel-preset-es2015@6.24.1: 🙌  Thanks for using Babel: we recommend using babel-preset-env now: please read babeljs.io/env to update! 
+<span class="ansi-white-fg ansi-black-bg">npm</span> <span class="ansi-black-fg ansi-yellow-bg">WARN</span> CandlestickPlotterTest@1.0.0 No descriptiont-es2015@6.24.1~p
+<span class="ansi-white-fg ansi-black-bg">npm</span> <span class="ansi-black-fg ansi-yellow-bg">WARN</span> CandlestickPlotterTest@1.0.0 No repository field.
+<span class="ansi-white-fg ansi-black-bg">npm</span> <span class="ansi-black-fg ansi-yellow-bg">WARN</span> <span class="ansi-magenta-fg">optional</span> SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.7 (node_modules/fsevents):
+<span class="ansi-white-fg ansi-black-bg">npm</span> <span class="ansi-black-fg ansi-yellow-bg">WARN</span> <span class="ansi-magenta-fg">notsup</span> SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.7: wanted {&#34;os&#34;:&#34;darwin&#34;,&#34;arch&#34;:&#34;any&#34;} (current: {&#34;os&#34;:&#34;linux&#34;,&#34;arch&#34;:&#34;x64&#34;})
+
++ babel-cli@6.26.0
++ babel-preset-es2015@6.24.1
+updated 2 packages and audited 3239 packages in 9.332s
+found 1 <span class="ansi-bold">low</span> severity vulnerability
+  run `npm audit fix` to fix them, or `npm audit` for details
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[36]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="ch">#!node_modules/.bin/babel --presets es2015 index.js | node</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>node_modules/.bin/babel --presets es2015 index.js <span class="p">|</span> node
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+{ [Function: Canvas] _registerFont: <span class="ansi-cyan-fg">[Function: _registerFont]</span> }
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[37]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="ch">#!ls</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>ls
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>CandlestickPlotterTest.html   result-1000025-H.png  result-1000057-H.png
+CandlestickPlotterTest.ipynb  result-1000026-H.png  result-1000058-B.png
+index.js		      result-1000027-H.png  result-1000059-S.png
+node_modules		      result-1000028-H.png  result-1000060-H.png
+ohlc.csv		      result-1000029-H.png  result-1000061-H.png
+package.json		      result-1000030-H.png  result-1000062-H.png
+package-lock.json	      result-1000031-H.png  result-1000063-H.png
+result-1000000-H.png	      result-1000032-H.png  result-1000064-H.png
+result-1000001-H.png	      result-1000033-H.png  result-1000065-B.png
+result-1000002-H.png	      result-1000034-H.png  result-1000066-H.png
+result-1000003-H.png	      result-1000035-H.png  result-1000067-H.png
+result-1000004-H.png	      result-1000036-H.png  result-1000068-S.png
+result-1000005-S.png	      result-1000037-H.png  result-1000069-H.png
+result-1000006-H.png	      result-1000038-H.png  result-1000070-H.png
+result-1000007-H.png	      result-1000039-S.png  result-1000071-H.png
+result-1000008-H.png	      result-1000040-H.png  result-1000072-H.png
+result-1000009-H.png	      result-1000041-S.png  result-1000073-B.png
+result-1000010-H.png	      result-1000042-B.png  result-1000074-H.png
+result-1000011-H.png	      result-1000043-H.png  result-1000075-B.png
+result-1000012-H.png	      result-1000044-H.png  result-1000076-B.png
+result-1000013-H.png	      result-1000045-H.png  result-1000077-H.png
+result-1000014-H.png	      result-1000046-H.png  result-1000078-H.png
+result-1000015-H.png	      result-1000047-H.png  result-1000079-H.png
+result-1000016-H.png	      result-1000048-H.png  result-1000080-H.png
+result-1000017-H.png	      result-1000049-S.png  result-1000081-B.png
+result-1000018-H.png	      result-1000050-H.png  result-1000082-B.png
+result-1000019-H.png	      result-1000051-H.png  result-1000083-H.png
+result-1000020-H.png	      result-1000052-H.png  result-1000084-H.png
+result-1000021-H.png	      result-1000053-H.png  result-1000085-S.png
+result-1000022-S.png	      result-1000054-H.png  result-1000086-H.png
+result-1000023-H.png	      result-1000055-H.png  result-1000087-H.png
+result-1000024-H.png	      result-1000056-B.png
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -13181,12 +13422,12 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1><img src="result-1000025-H.png" alt="title"></h1>
-<h1><img src="result-1000026-H.png" alt="title"></h1>
-<h1><img src="result-1000027-H.png" alt="title"></h1>
-<h1><img src="result-1000028-H.png" alt="title"></h1>
-<h1><img src="result-1000029-H.png" alt="title"></h1>
-<h1><img src="result-1000030-H.png" alt="title"></h1>
+<p><img src="result-1000025-H.png" alt="title">
+<img src="result-1000026-H.png" alt="title">
+<img src="result-1000027-H.png" alt="title">
+<img src="result-1000028-H.png" alt="title">
+<img src="result-1000029-H.png" alt="title">
+<img src="result-1000030-H.png" alt="title"></p>
 
 </div>
 </div>
