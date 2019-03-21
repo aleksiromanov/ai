@@ -1,4 +1,4 @@
 
 import cp from 'candlestick-plotter';
-new cp().run('ohlc.csv');
+new cp().run(process.argv[2]);
 
